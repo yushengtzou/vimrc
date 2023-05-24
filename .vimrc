@@ -68,7 +68,11 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'vim-scripts/c.vim'
 Plug 'alvan/vim-closetag'
 Plug 'frazrepo/vim-rainbow'
+Plug 'JuliaEditorSupport/julia-vim'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
+" Always load the vim-devicons as the very last one.
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 syntax on
