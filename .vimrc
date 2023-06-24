@@ -70,6 +70,7 @@ Plug 'alvan/vim-closetag'
 Plug 'frazrepo/vim-rainbow'
 Plug 'JuliaEditorSupport/julia-vim'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'Yggdroot/indentLine'
 
 " Always load the vim-devicons as the very last one.
 Plug 'ryanoasis/vim-devicons'
