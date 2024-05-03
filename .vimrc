@@ -9,9 +9,10 @@ set scrolloff=3
 set smartcase
 setlocal makeprg=open\ -a\ \"Google\ Chrome\"\ %
 set foldmethod=syntax
+set foldmethod=indent
 set foldcolumn=1     " the number of columns to use for folding display at the left
 
-" set mouse=a
+set mouse=a
 "-----------------
 " Search
 "-----------------
@@ -71,6 +72,14 @@ Plug 'frazrepo/vim-rainbow'
 Plug 'JuliaEditorSupport/julia-vim'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'Yggdroot/indentLine'
+Plug 'vim-scripts/MatlabFilesEdition'
+Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'raingo/vim-matlab'
+Plug 'goerz/jupytext.vim'
+Plug 'github/copilot.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'github/copilot.vim'
+Plug 'pangloss/vim-javascript'
 
 " Always load the vim-devicons as the very last one.
 Plug 'ryanoasis/vim-devicons'
@@ -79,4 +88,7 @@ call plug#end()
 syntax on
 set termguicolors
 colorscheme one-monokai
+
+
+
 
